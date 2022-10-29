@@ -46,6 +46,13 @@ li, p {
     text-align: justify;
 }
 
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 img {
     width: 100%;
     min-width: 200px;
@@ -53,11 +60,10 @@ img {
     min-height: 270px;
     max-height: 300px;
     object-fit: cover;
-    align-self: center;
 }
 
 figcaption {
-    text-align: right;
+    align-self: flex-end;
     color: #8F8F8F;
     font-size: 12px;
 }
